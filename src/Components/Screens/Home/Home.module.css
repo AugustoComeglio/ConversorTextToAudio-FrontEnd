@@ -1,0 +1,19 @@
+.contPrincipal{
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+.main{
+    flex: 1;
+}
+.contenedor{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 25px 15px;
+}
+@media (min-width: 768px) {
+    .contenedor {
+        padding: 50px 100px;
+    }
+}
