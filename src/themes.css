@@ -25,10 +25,11 @@ body.dark-mode {
   --primary-color: var(--primary-color-dark);
   --secondary-color: var(--secondary-color-dark);
 }
+
 /* 
-#caff42
 #ebf7f8
 #d0e0eb
+#caff42
 #88abc2
 #49708a
 */

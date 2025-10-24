@@ -1,9 +1,9 @@
 .header {
-background: var(--background-color);
+  background: var(--background-color);
   width: 100%;
   border-bottom: 2px solid var(--secondary-color);
   display: flex;
-  justify-content: space-between;
+  justify-content:space-between;
   align-items: center;
   padding: 0 20px;
 }
