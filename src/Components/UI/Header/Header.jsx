@@ -16,7 +16,7 @@ const Header = () => {
   return (
     <>
       <header className={styles.header}>
-        <div className={styles.title}>Conversor</div>
+        <div className={styles.title}>Conversor - Text to Auido</div>
         <label className={styles.switch}>
             <input type="checkbox" onChange={toggleTheme} checked={theme === 'dark'} />
             <span className={styles.slider}></span>
