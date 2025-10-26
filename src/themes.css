@@ -1,20 +1,20 @@
 :root {
-  --background-color-light: #ebf7f8;
-  --text-color-light: #49708a;
-  --primary-color-light: #caff42;
-  --secondary-color-light: #d0e0eb;
+  --background-color-light: #ECE1C3;
+  --text-color-light: #063940;
+  --secondary-color-light: #8EBDB6;
 
-  --background-color-dark: #49708a;
-  --text-color-dark: #ebf7f8;
-  --primary-color-dark: #caff42;
-  --secondary-color-dark: #88abc2;
+  --background-color-dark: #063940;
+  --text-color-dark: #ECE1C3;
+  --secondary-color-dark: #195E63;
+
+  --primary-color: #3E838C;
 
 }
 
 body.light-mode {
   --background-color: var(--background-color-light);
   --text-color: var(--text-color-light);
-  --primary-color: var(--primary-color-light);
+  --primary-color: var(--primary-color);
   --secondary-color: var(--secondary-color-light);
 
 }
@@ -22,7 +22,7 @@ body.light-mode {
 body.dark-mode {
   --background-color: var(--background-color-dark);
   --text-color: var(--text-color-dark);
-  --primary-color: var(--primary-color-dark);
+  --primary-color: var(--primary-color);
   --secondary-color: var(--secondary-color-dark);
 }
 
@@ -32,4 +32,19 @@ body.dark-mode {
 #caff42
 #88abc2
 #49708a
+*/
+/*
+#F0F0F0
+#D8D8D8
+#C0C0A8
+#604848
+#484848
+*/
+
+/*
+#063940
+#195E63
+#3E838C
+#8EBDB6
+#ECE1C3
 */

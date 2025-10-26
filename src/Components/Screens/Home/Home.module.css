@@ -1,19 +1,116 @@
-.contPrincipal{
-    display: flex;
-    flex-direction: column;
-    min-height: 100vh;
+.contPrincipal {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
 }
-.main{
-    flex: 1;
+.main {
+  flex: 1;
+  padding: 20px 0;
 }
-.contenedor{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 25px 15px;
+
+.contenedor {
+  display: flex;
+  flex-direction: column;
+  gap: 25px; 
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 25px 15px;
 }
+
+.opciones,
+.textoYSubmit,
+.resultado {
+  display: flex;
+  flex-direction: column;
+  gap: 10px; 
+  background-color: var(--secondary-color);
+  padding: 25px;
+  border-radius: 8px;
+}
+
+label {
+  font-weight: 600;
+  font-size: 0.9rem;
+  color: var(--primary-color);
+  margin-bottom: -5px;
+}
+
+select,
+textarea {
+  width: 100%;
+  padding: 12px;
+  font-size: 1rem;
+  border: 1px solid var(--secondary-color);
+  border-radius: 6px;
+  box-sizing: border-box;
+  background-color: #ffffff;
+  transition: border-color 0.2s, box-shadow 0.2s;
+  font-family: "Montserrat";
+}
+
+select:focus,
+textarea:focus {
+  outline: none;
+  border-color:var(--primary-color);
+  box-shadow: 0 0 0 3px var(--primary-color);
+}
+
+textarea {
+  font-family: inherit;
+  resize: vertical;
+  min-height: 120px;
+}
+
+.submitButton {
+  padding: 14px 20px;
+  font-size: 1.1rem;
+  font-weight: 700;
+  color: var(--text-color);
+  background-color: var(--background-color);
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.2s ease, transform 0.1s ease;
+  margin-top: 10px;
+}
+
+.submitButton:hover {
+  background-color: var(--primary-color); 
+}
+
+.submitButton:active {
+  transform: scale(0.98);
+}
+
+.submitButton:disabled {
+  background-color: #b0b0b0;
+  cursor: not-allowed;
+}
+
+.resultado h3 {
+  margin: 0;
+  padding-bottom: 5px;
+  border-bottom: 1px solid var(--primary-color); 
+}
+
+
+audio {
+  width: 100%;
+  margin-top: 10px;
+}
+
+.error {
+  color: #D8000C;
+  background-color: #FFD2D2;
+  border: 1px solid #D8000C;
+  padding: 12px;
+  border-radius: 6px;
+  text-align: center;
+  font-weight: 500;
+}
+
 @media (min-width: 768px) {
-    .contenedor {
-        padding: 50px 100px;
-    }
+  .contenedor {
+    padding: 40px 50px; 
+  }
 }
